@@ -1,0 +1,16 @@
+.texto {
+    width: 40vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    .tituloini {
+        color: #337d26;
+    }
+}
+
+.maetexto {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 80vh;
+}

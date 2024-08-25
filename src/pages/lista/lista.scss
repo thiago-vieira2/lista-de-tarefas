@@ -1,0 +1,47 @@
+.select {
+    margin-left: 4vh;
+    margin-top: 4vh;
+
+    input {
+        border-radius: 10vh;
+        border: none;
+        height: 5vh;
+        width: 40vh;
+        background-color: #c9ffb3;
+    }
+
+    button {
+        border-radius: 10vh;
+        border: none;
+
+        background-color: #599d4a;
+        height: 5vh;
+        color: #c9ffb3;
+    }
+}
+
+.map {
+    margin-left: 4vh;
+
+
+    h2 {
+        color: #337d26;
+        font-size: 7vh;
+    }
+
+    .botaolist {
+        display: flex;
+        gap: 2vh;
+    }
+
+    button {     
+        border-radius: 10vh;
+        border: none;
+
+        background-color: #599d4a;
+        height: 5vh;
+        width: 30vh;
+        color: #c9ffb3;}
+}
+
+
