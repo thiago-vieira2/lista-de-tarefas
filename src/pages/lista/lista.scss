@@ -1,47 +1,98 @@
-.select {
-    margin-left: 4vh;
-    margin-top: 4vh;
+$font : 'arial';
+$transition : 0.5s;
 
-    input {
-        border-radius: 10vh;
-        border: none;
-        height: 5vh;
-        width: 40vh;
-        background-color: #c9ffb3;
-    }
-
-    button {
-        border-radius: 10vh;
-        border: none;
-
-        background-color: #599d4a;
-        height: 5vh;
-        color: #c9ffb3;
-    }
+* {
+    font-family: $font;
 }
 
+
+.select {
+
+    padding-top: 3vh;
+
+
+    display: flex;
+    justify-content: center;
+
+
+    .elim {
+        border-top-right-radius: 1vh;
+        border-bottom-right-radius: 1vh;
+    }
+
+
+    button {
+        height: 5vh;
+
+        border: none;
+        background-color: rgb(75, 144, 235);
+        color: white;
+        transition: $transition;
+
+
+  
+
+        &:hover {
+            background-color: rgb(18, 110, 231);
+            transition: $transition;
+            color: white;
+        }
+    }
+
+    input {
+        height: 5vh ;
+        border-color:  rgb(75, 144, 235);
+        border-top-left-radius: 1vh;
+        border-bottom-left-radius: 1vh;
+
+    
+    }
+
+
+
+}
+
+
 .map {
-    margin-left: 4vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    padding-top: 3vh;
 
 
-    h2 {
-        color: #337d26;
-        font-size: 7vh;
+    .edit 
+    {
+        border-top-right-radius: 1vh;
+        border-bottom-right-radius: 1vh;
+    }
+
+    .limpars {
+        border-top-left-radius: 1vh;
+        border-bottom-left-radius: 1vh;
     }
 
     .botaolist {
-        display: flex;
-        gap: 2vh;
+       
+        button{
+            height: 5vh;
+            width: 20vh;
+
+            border: none;
+            background-color: rgb(75, 144, 235);
+            color: white;
+            transition: $transition;
+
+           
+    
+    
+      
+    
+            &:hover {
+                background-color: rgb(18, 110, 231);
+                transition: $transition;
+                color: white;
+            }
+        }
     }
-
-    button {     
-        border-radius: 10vh;
-        border: none;
-
-        background-color: #599d4a;
-        height: 5vh;
-        width: 30vh;
-        color: #c9ffb3;}
 }
-
-
